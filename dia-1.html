@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 1 | Rutina Lucha & Columna</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-day="dia1">
+    <button id="themeToggle" class="theme-switch">🌓</button>
+    <a href="#" class="fab">↑</a>
+    <div class="container">
+        <h1>Día 1: Tren Superior + Core</h1>
+        <div class="progress-container"><div class="progress-bar" id="progressBar"></div></div>
+        <button id="resetDay" class="btn btn-secondary">Reiniciar Día</button>
+        <br><br>
+        
+        
+    <details id="1-press">
+        <summary>
+            <div>
+                <strong>N° 1: Press inclinado en máquina</strong><br>
+                <small>3x12 | Máquina: Máquina de Press de Pecho Inclinado</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/1-press-maquina.svg] Máquina de Press de Pecho Inclinado - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/1-press-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/1-press-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Ajusta el asiento para que los agarres queden a la altura del pecho superior. Empuja controladamente exhalando.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Mantén toda la espalda y cabeza pegadas al respaldo. No arquees la zona lumbar.</p>
+            <p><strong>Lucha & Músculos:</strong> Pectoral mayor, deltoides anterior, tríceps. Ayuda a empujar al oponente y crear distancia.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_1-press" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_1-press_1"> Serie 1</label><label><input type="checkbox" id="set_1-press_2"> Serie 2</label><label><input type="checkbox" id="set_1-press_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="90">Iniciar Descanso (90s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="15-lat">
+        <summary>
+            <div>
+                <strong>N° 2: Lat pull down</strong><br>
+                <small>3x12 | Máquina: Polea alta con barra</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/15-lat-maquina.svg] Polea alta con barra - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/15-lat-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/15-lat-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Siéntate y ajusta los rodillos a tus muslos. Jala la barra hacia el pecho superior juntando escápulas.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Mantén el torso erguido. Evita balancearte hacia atrás para no comprometer los discos.</p>
+            <p><strong>Lucha & Músculos:</strong> Dorsal ancho, bíceps. Crucial para jalar al oponente y control de agarres (clinch).</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_15-lat" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_15-lat_1"> Serie 1</label><label><input type="checkbox" id="set_15-lat_2"> Serie 2</label><label><input type="checkbox" id="set_15-lat_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="90">Iniciar Descanso (90s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="21-remo">
+        <summary>
+            <div>
+                <strong>N° 3: Remo sentado</strong><br>
+                <small>3x12 | Máquina: Máquina de remo con apoyo en pecho</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/21-remo-maquina.svg] Máquina de remo con apoyo en pecho - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/21-remo-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/21-remo-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Apoya el pecho firmemente. Jala los agarres hacia tu abdomen exhalando.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> El apoyo en el pecho es clave para evitar que la carga pase a la columna lumbar.</p>
+            <p><strong>Lucha & Músculos:</strong> Espalda media, trapecios. Mejora el control y tracción en derribos.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_21-remo" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_21-remo_1"> Serie 1</label><label><input type="checkbox" id="set_21-remo_2"> Serie 2</label><label><input type="checkbox" id="set_21-remo_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="90">Iniciar Descanso (90s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="29-vuelos">
+        <summary>
+            <div>
+                <strong>N° 4: Vuelos laterales</strong><br>
+                <small>3x12 | Máquina: Mancuernas libres</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/29-vuelos-maquina.svg] Mancuernas libres - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/29-vuelos-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/29-vuelos-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> De pie, elevación lateral de brazos con ligera flexión de codo.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Mantén abdomen contraído (bracing). No uses impulso del cuerpo.</p>
+            <p><strong>Lucha & Músculos:</strong> Deltoides lateral. Estabilidad en hombros para llaves y posturas.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_29-vuelos" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_29-vuelos_1"> Serie 1</label><label><input type="checkbox" id="set_29-vuelos_2"> Serie 2</label><label><input type="checkbox" id="set_29-vuelos_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="60">Iniciar Descanso (60s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="63-triceps">
+        <summary>
+            <div>
+                <strong>N° 5: Extensión de tríceps</strong><br>
+                <small>3x12 | Máquina: Polea alta con cuerda</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/63-triceps-maquina.svg] Polea alta con cuerda - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/63-triceps-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/63-triceps-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Codos pegados al cuerpo, extiende los brazos hacia abajo.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Postura erguida, evita encorvarte hacia adelante al extender.</p>
+            <p><strong>Lucha & Músculos:</strong> Tríceps. Fuerza de empuje en el suelo.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_63-triceps" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_63-triceps_1"> Serie 1</label><label><input type="checkbox" id="set_63-triceps_2"> Serie 2</label><label><input type="checkbox" id="set_63-triceps_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="60">Iniciar Descanso (60s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="71-biceps">
+        <summary>
+            <div>
+                <strong>N° 6: Curl de bíceps con barra</strong><br>
+                <small>3x12 | Máquina: Barra recta o Z, pared</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/71-biceps-maquina.svg] Barra recta o Z, pared - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/71-biceps-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/71-biceps-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Espalda apoyada en la pared o abdomen firme. Flexiona codos.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Sin balancear el cuerpo ni arquear zona lumbar (apoyo en pared previene esto).</p>
+            <p><strong>Lucha & Músculos:</strong> Bíceps. Agarre firme y retención.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_71-biceps" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_71-biceps_1"> Serie 1</label><label><input type="checkbox" id="set_71-biceps_2"> Serie 2</label><label><input type="checkbox" id="set_71-biceps_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="60">Iniciar Descanso (60s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="97-deadbug">
+        <summary>
+            <div>
+                <strong>N° 7: Deadbug en colchoneta</strong><br>
+                <small>3x8 | Máquina: Colchoneta en el suelo</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/97-deadbug-maquina.svg] Colchoneta en el suelo - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/97-deadbug-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/97-deadbug-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Boca arriba. Baja brazo y pierna opuestos controladamente sin tocar el suelo.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> La zona lumbar DEBE mantenerse pegada al suelo en todo momento.</p>
+            <p><strong>Lucha & Músculos:</strong> Core profundo (transverso). Estabiliza la columna en cualquier posición de lucha.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_97-deadbug" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_97-deadbug_1"> Serie 1</label><label><input type="checkbox" id="set_97-deadbug_2"> Serie 2</label><label><input type="checkbox" id="set_97-deadbug_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="45">Iniciar Descanso (45s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+    <details id="67-plancha">
+        <summary>
+            <div>
+                <strong>N° 8: Plancha lateral</strong><br>
+                <small>3x25 | Máquina: Colchoneta</small>
+            </div>
+        </summary>
+        <div class="content">
+            <div class="img-placeholder">[SVG: img/67-plancha-maquina.svg] Colchoneta - Ajustes</div>
+            <div class="img-placeholder">[SVG: img/67-plancha-ejecucion.svg] Ejecución paso a paso</div>
+            <div class="img-placeholder">[SVG: img/67-plancha-postura.svg] Correcto ✔ vs Incorrecto ✘</div>
+            
+            <p><strong>Ajuste y Ejecución:</strong> Apoyo en antebrazo, cuerpo en línea recta.</p>
+            <p><strong>⚠️ Precaución (Protrusión):</strong> Evitar que la cadera caiga. Columna perfectamente alineada.</p>
+            <p><strong>Lucha & Músculos:</strong> Oblicuos. Resistencia a la torsión que te pueda ejercer el rival.</p>
+            
+            <div style="margin-top: 15px;">
+                <label>Peso usado (kg/lbs): <input type="number" id="w_67-plancha" class="weight-input"></label>
+            </div>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="set_67-plancha_1"> Serie 1</label><label><input type="checkbox" id="set_67-plancha_2"> Serie 2</label><label><input type="checkbox" id="set_67-plancha_3"> Serie 3</label>
+            </div>
+            
+            <div style="margin-top: 15px;">
+                <button class="btn start-timer" data-time="45">Iniciar Descanso (45s)</button>
+                <div class="timer"></div>
+            </div>
+        </div>
+    </details>
+    
+        
+        <div style="display:flex; justify-content:space-between; margin-top:20px;">
+            <a href="index.html" class="btn btn-secondary" style="width:48%">Inicio</a>
+            <a href="dia-2.html" class="btn" style="width:48%">Siguiente Día</a>
+        </div>
+    </div>
+    
+    <nav>
+        <a href="index.html" class="">Inicio</a>
+        <a href="dia-1.html" class="active">D1</a>
+        <a href="dia-2.html" class="">D2</a>
+        <a href="dia-3.html" class="">D3</a>
+        <a href="dia-4.html" class="">D4</a>
+        <a href="seguridad.html" class="">Seguridad</a>
+    </nav>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
